@@ -5,8 +5,10 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>This is the title</h1>
-        <Calculator />
+        <center>
+          <h1>This is a calculator, albiet a very basic one</h1>
+          <Calculator />
+        </center>
       </div>
     );
   }
